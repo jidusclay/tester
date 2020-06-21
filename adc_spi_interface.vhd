@@ -97,7 +97,7 @@ constant adc_mclk_max_val : std_logic_vector(4 downto 0) := "11000";
 begin
 
 
-adc_sclk  <= adc_sclk_reg and sclk_en;
+--adc_sclk  <= adc_sclk_reg and sclk_en;
 
 
 ---------------------------------------
